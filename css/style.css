@@ -19,3 +19,48 @@
 	font-family: regular;
 	src: url(../../assets/fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
 }
+
+
+body {
+	background-color: black;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+.page-area {
+	max-width: 500px;
+	height: fit-content;
+	background-color: white;
+}
+
+.background-header {
+
+	height: 100px;
+}
+
+
+.C-icon {
+	display: flex;
+	justify-content: center;
+
+}
+
+.logo {
+	margin: -30px auto 0px;
+}
+
+.title-area {
+	margin-top: 55px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.text1 {
+	text-align: center;
+}
