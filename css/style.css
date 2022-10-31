@@ -65,7 +65,11 @@ h2 {
 	text-align: center;
 }
 
-.download-btns {}
+.download-btns {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
 
 .download-bt1-area {}
 
