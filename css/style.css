@@ -1,0 +1,21 @@
+:root {
+	--Strong-Cyan: hsl(171, 66%, 44%);
+	--Light-Blue: hsl(233, 100%, 69%);
+	--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+	--Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+@font-face {
+	font-family: bold;
+	src: url(../../assets/fonts/Bai_Jamjuree/BaiJamjuree-Bold.ttf);
+}
+
+@font-face {
+	font-family: light;
+	src: url(../../assets/fonts/Bai_Jamjuree/BaiJamjuree-Light.ttf);
+}
+
+@font-face {
+	font-family: regular;
+	src: url(../../assets/fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
