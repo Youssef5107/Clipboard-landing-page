@@ -120,3 +120,39 @@ h2 {
 	max-width: 420px;
 	margin: 20px auto;
 }
+
+.computer-img-area {
+	display: flex;
+}
+
+.computer-img {
+	width: 250px;
+	height: 200px;
+}
+
+
+.content2-area {
+	margin-left: 10%;
+}
+
+.text3-title,
+.text4-title,
+.text5-title {
+	font-size: 13px;
+
+}
+
+.text4-area,
+.text5-area {
+	margin-top: 20px;
+}
+
+
+.text3,
+.text4,
+.text5 {
+	font-size: 10px;
+	color: var(--Grayish-Blue);
+	max-width: 190px;
+	margin-top: 7px;
+}
