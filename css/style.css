@@ -38,7 +38,6 @@ main {
 }
 
 .background-header {
-
 	height: 100px;
 }
 
@@ -63,6 +62,10 @@ h2 {
 
 .text1 {
 	text-align: center;
+	font-size: 12px;
+	color: var(--Grayish-Blue);
+	max-width: 360px;
+	margin: auto;
 }
 
 .download-btns {
@@ -99,4 +102,21 @@ h2 {
 	color: white;
 	padding: 10px;
 	font-size: 12px;
+}
+
+.text2-area {
+	margin: 70px auto 0px;
+}
+
+.text2-title {
+	color: black;
+	text-align: center;
+}
+
+.text2 {
+	color: var(--Grayish-Blue);
+	font-size: 12px;
+	text-align: center;
+	max-width: 420px;
+	margin: 20px auto;
 }
