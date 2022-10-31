@@ -156,3 +156,28 @@ h2 {
 	max-width: 190px;
 	margin-top: 7px;
 }
+
+.text6-area {
+	margin: 40px auto 0px;
+}
+
+.text6-title {
+	text-align: center;
+	margin: auto;
+}
+
+.text6 {
+	color: var(--Grayish-Blue);
+	margin: 10px auto 0px;
+	text-align: center;
+}
+
+.devices-area {
+	display: flex;
+}
+
+.devices {
+	margin: 70px auto 0px;
+	width: 300px;
+	height: 200px;
+}
