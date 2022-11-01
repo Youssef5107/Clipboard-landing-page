@@ -280,3 +280,16 @@ h2 {
 	font-size: 12px;
 	color: var(--Grayish-Blue);
 }
+
+footer {
+	margin-top: 70px;
+	height: 100px;
+	background-color: lightgray;
+	display: flex;
+	align-items: center;
+}
+
+.icon-footer {
+	width: 40px;
+	height: 40px;
+}
