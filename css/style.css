@@ -246,3 +246,19 @@ h2 {
 .logo2-title {
 	margin-right: 45px;
 }
+
+.global-logos {
+	display: flex;
+	justify-content: center;
+	margin-right: 10px;
+}
+
+.google,
+.IBM,
+.vector,
+.microsoft,
+.hp {
+	width: 60px;
+	height: 30px;
+	margin: 50px 5px 50px 30px;
+}
