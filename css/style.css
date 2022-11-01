@@ -174,10 +174,75 @@ h2 {
 
 .devices-area {
 	display: flex;
+	justify-content: center;
 }
 
 .devices {
 	margin: 70px auto 0px;
 	width: 300px;
 	height: 200px;
+}
+
+.text7-area {
+	margin: 70px auto 0px;
+}
+
+.text7-title {
+	font-family: regular;
+	color: black;
+	margin: auto;
+	text-align: center;
+}
+
+.text7 {
+	font-family: light;
+	color: var(--Grayish-Blue);
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.logo-area1 {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+.logo1,
+.logo2,
+.logo3 {
+	margin-right: 100px;
+}
+
+.logo-area1-text {
+	display: flex;
+	margin: 10px 0px 50px 66px;
+}
+
+.logo1-title,
+.logo2-title,
+.logo3-title {
+	text-align: center;
+	font-size: 12px;
+	max-width: 100px;
+	margin-right: 35px;
+}
+
+.logo1-text,
+.logo2-text,
+.logo3-text {
+	font-size: 7px;
+	color: var;
+	color: var(--Grayish-Blue);
+	margin-top: 5px;
+}
+
+.logo1-title {
+	margin-left: -10px;
+	margin-right: 42px;
+}
+
+.logo2-title {
+	margin-right: 45px;
 }
