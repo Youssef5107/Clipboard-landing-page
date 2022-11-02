@@ -336,3 +336,50 @@ footer {
 	width: 15px;
 	height: 15px;
 }
+
+
+
+@media(max-width:520px) {
+
+	.download-btns {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.computer-img-area {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.content2-area {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 50px;
+		margin-right: 50px;
+	}
+
+	.text3-title {
+		position: relative;
+		top: -20px;
+		left: 95px;
+	}
+
+	.text3 {
+		position: relative;
+		right: 34px;
+	}
+
+	.text3-title,
+	.text4-title,
+	.text5-title {
+		text-align: center;
+	}
+
+	.text3,
+	.text4,
+	.text5 {
+		text-align: center;
+	}
+}
