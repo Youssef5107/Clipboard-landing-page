@@ -216,18 +216,25 @@ h2 {
 	display: flex;
 	justify-content: center;
 	margin-top: 70px;
-	margin-left: 100px;
 }
 
-.logo1,
-.logo2,
-.logo3 {
-	margin-right: 100px;
-}
 
 .logo-area1-text {
 	display: flex;
 	margin: 10px 0px 50px 66px;
+}
+
+.logo1-title {
+	margin-top: 10px;
+}
+
+.blacklist,
+.text-logo {
+	margin-left: 30px;
+}
+
+.preview {
+	margin-left: 25px;
 }
 
 .logo1-title,
@@ -237,6 +244,7 @@ h2 {
 	font-size: 12px;
 	max-width: 100px;
 	margin-right: 35px;
+	margin-top: 20px;
 }
 
 .logo1-text,
@@ -421,5 +429,19 @@ footer {
 	.text2 {
 		max-width: 200px;
 		margin: 10px auto;
+	}
+
+	.logo-text-area {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.logo-area1 {
+		flex-wrap: wrap;
+		margin: 40px 0px 40px 25px;
+	}
+
+	.logo2 {
+		margin: 30px 0px;
 	}
 }
