@@ -77,6 +77,7 @@ h2 {
 .download-bt1-area {
 	background-color: var(--Strong-Cyan);
 	border-radius: 10px;
+	border: 0px;
 	margin-right: 15px;
 	height: 30px;
 	display: flex;
@@ -86,6 +87,7 @@ h2 {
 .download-bt2-area {
 	background-color: var(--Light-Blue);
 	border-radius: 10px;
+	border: 0px;
 	display: flex;
 	align-items: center;
 	height: 30px;
@@ -128,6 +130,7 @@ h2 {
 
 .computer-img-area {
 	display: flex;
+	margin-top: 50px;
 }
 
 .computer-img {
@@ -235,7 +238,6 @@ h2 {
 }
 
 
-.logo-a {}
 
 .logo1-title,
 .logo2-title,
