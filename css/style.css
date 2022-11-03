@@ -162,6 +162,11 @@ h2 {
 	margin-top: 7px;
 }
 
+.text4-title,
+.text5-title {
+	margin-top: 10px;
+}
+
 .text6-area {
 	margin: 40px auto 0px;
 }
@@ -338,18 +343,39 @@ footer {
 }
 
 
-
 @media(max-width:520px) {
+
+	.page-area {
+		max-width: 300px;
+	}
 
 	.download-btns {
 		display: flex;
 		flex-wrap: wrap;
 	}
 
+	.download-bt2-area,
+	.download-bt1-area {
+		width: 200px;
+		margin-top: 15px;
+		height: 35px;
+	}
+
+	.download-bt1-area {
+		margin-left: 15px;
+	}
+
+	.download-ios,
+	.download-mac {
+		margin: auto;
+		font-size: 15px;
+	}
+
 	.computer-img-area {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		margin-top: 50px;
 	}
 
 	.content2-area {
@@ -357,18 +383,16 @@ footer {
 		flex-wrap: wrap;
 		justify-content: center;
 		margin-top: 50px;
-		margin-right: 50px;
+		margin-right: 25px;
 	}
 
-	.text3-title {
-		position: relative;
-		top: -20px;
-		left: 95px;
+	.text1 {
+		max-width: 205px;
 	}
 
-	.text3 {
-		position: relative;
-		right: 34px;
+	.title-area {
+		max-width: 220px;
+		margin: 70px auto 0px;
 	}
 
 	.text3-title,
@@ -377,9 +401,25 @@ footer {
 		text-align: center;
 	}
 
+
 	.text3,
 	.text4,
 	.text5 {
 		text-align: center;
+	}
+
+	.text7 {
+		max-width: 180px;
+		margin: 10px auto;
+	}
+
+	.text2-title {
+		max-width: 170px;
+		margin: auto;
+	}
+
+	.text2 {
+		max-width: 200px;
+		margin: 10px auto;
 	}
 }
