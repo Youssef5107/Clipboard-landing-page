@@ -229,13 +229,13 @@ h2 {
 }
 
 .blacklist,
-.text-logo {
-	margin-left: 30px;
-}
-
+.text-logo,
 .preview {
 	margin-left: 25px;
 }
+
+
+.logo-a {}
 
 .logo1-title,
 .logo2-title,
@@ -444,4 +444,43 @@ footer {
 	.logo2 {
 		margin: 30px 0px;
 	}
+
+	.logo1-title,
+	.logo2-title,
+	.logo3-title {
+		font-size: 16px;
+		max-width: 300px;
+	}
+
+	.logo1-text,
+	.logo2-text,
+	.logo3-text {
+		font-size: 14px;
+		max-width: 400px;
+	}
+
+	.logo-a {
+		display: flex;
+		justify-content: center;
+	}
+
+	.blacklist,
+	.text-logo,
+	.preview {
+		margin-right: 65px;
+	}
+
+	.global-logos {
+		flex-wrap: wrap;
+	}
+
+	.IBM,
+	.google,
+	.microsoft,
+	.hp,
+	.vector {
+		margin: 30px;
+		width: 100px;
+	}
+
 }
